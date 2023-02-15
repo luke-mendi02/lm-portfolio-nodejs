@@ -1,11 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-	<title>Node.js on Azure Template</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to my portfolio!</title>
+    <link rel = "stylesheet" href="styles.css" >
+    <script src="index.js"></script>
 </head>
 <body>
-	<h1>Node.js and Express Hosted on Microsoft Azure Template</h1>
-	<p>This repository is a template that can be used to create a Node.js and Express website for hosting on Microsoft 
-	Azure.</p>
+  <script src="backend.js"></script>
+    <nav class = "top-of-page">
+        <ul class="navbar">
+          <li class = "logo"><img src ="placeholder" alt="logo"></li>
+          <li class = "home"><a href="./index.html">Home</a></li>
+          <li class = "projects"><a href="#my-projects">Projects</a></li>
+          <li class = "about"><a href="./resume/index.html">Resume</a></li>
+          <li class = "contact"><a href="./top-of-page/contact-page.html">Contact</a></li>
+          <li class = "nightmode"><button onclick="darkModeFunction()"></button></li>
+        </ul>
+    </nav>
+    <div class = "hello-main-title">
+      <h1 class = "big-title">Hi. I'm Luke. </h1>
+      <span class = "big-title-part2"> Welcome to my portfolio.</span>
+    </div>
+    <div class = "front-page-about-me">
+      <p class = "front-page-paragraph">I am a student at Lewis University on track to receive a Bachelor's degree in Computer Science.
+        You can find my projects, resume, and ways to contact me on this website.</p>
+    </div>
+    <h2 class = "my-projects" id="my-projects">My Projects</h2>
+    <div class="projects">
+      <section class="project-container">
+        <a href="./getting-to-know-each-other-lm/index.html">
+          <img src="gtkeo-preview.PNG">
+          <h3 class="project-name">Getting to know each other</h3>
+          <p id="project-description"></p>
+          <p id="project-description-2">A basic website about me. 
+          </p>
+        </a>
+      </section>
+      <section class="project-container">
+        <a href="./dice-roller/index (3).html">
+          <img src="dr-preview.PNG">
+          <h3 class="project-name">Dice Roller</h3>
+          <p id="project-description"></p>
+        </a>
+      </section>
+      <section class="project-container">
+        <a href="link">
+          <img src="placeholder">
+          <h3 class="project-name">Dealership Website</h3>
+          <p id="project-description">Website</p>
+        </a>
+      </section>
+    </div>
 </body>
 </html>
